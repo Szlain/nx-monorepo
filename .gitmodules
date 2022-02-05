@@ -1,0 +1,3 @@
+[submodule "packages/basic-frontend"]
+	path = packages/basic-frontend
+	url = git@github.com:Szlain/basic-frontend.git
