@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "basic-frontend": "packages/basic-frontend"
+    "basic-frontend": "packages/basic-frontend",
+    "megabasic-docker": "packages/megabasic-docker"
   }
 }
