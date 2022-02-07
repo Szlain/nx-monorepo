@@ -2,7 +2,10 @@
   "name": "newride",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:frontend": "npx nx run-many --target=build --all",
+    "run:frontend": "npx nx run-many --target=serve --all"
+  },
   "private": true,
   "workspaces": ["packages/basic-frontend"],
   "dependencies": {
