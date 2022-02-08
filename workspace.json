@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "basic-frontend": "packages/basic-frontend",
+    "graphql": "packages/graphql",
     "megabasic-docker": "packages/megabasic-docker"
   }
 }
