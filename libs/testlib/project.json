@@ -1,30 +1,30 @@
 {
-  "root": "libs/fuse",
-  "sourceRoot": "libs/fuse/src",
+  "root": "libs/testlib",
+  "sourceRoot": "libs/testlib/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/fuse",
-        "main": "libs/fuse/src/index.ts",
-        "tsConfig": "libs/fuse/tsconfig.lib.json",
-        "assets": ["libs/fuse/*.md"]
+        "outputPath": "dist/libs/testlib",
+        "main": "libs/testlib/src/index.ts",
+        "tsConfig": "libs/testlib/tsconfig.lib.json",
+        "assets": ["libs/testlib/*.md"]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/fuse/**/*.ts"]
+        "lintFilePatterns": ["libs/testlib/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fuse"],
+      "outputs": ["coverage/libs/testlib"],
       "options": {
-        "jestConfig": "libs/fuse/jest.config.js",
+        "jestConfig": "libs/testlib/jest.config.js",
         "passWithNoTests": true
       }
     }

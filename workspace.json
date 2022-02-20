@@ -2,7 +2,7 @@
   "version": 2,
   "projects": {
     "account": "apps/account",
-    "fuse": "libs/fuse",
-    "homepage": "apps/homepage"
+    "homepage": "apps/homepage",
+    "testlib": "libs/testlib"
   }
 }

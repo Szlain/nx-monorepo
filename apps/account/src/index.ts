@@ -3,13 +3,13 @@
 // console.log(`Running ${account()}`);
 
 import fastify from 'fastify'
-import { button } from '@tvg/fuse'
+import { button } from '@tvg/test'
 // const button = 'woop'
 
 const server = fastify()
 
 server.get('/ping', async (request, reply) => {
-  return `pong\n ${button}`
+  return `pong\n ${button()}`
 })
 
 server.listen(8080, (err, address) => {
