@@ -1,5 +1,5 @@
 import fastify from 'fastify'
-import { button } from '@tvg/test'
+import { button } from '@tvg/fuse'
 
 const server = fastify()
 

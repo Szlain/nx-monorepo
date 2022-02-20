@@ -3,6 +3,6 @@
   "projects": {
     "account": "apps/account",
     "homepage": "apps/homepage",
-    "testlib": "libs/testlib"
+    "fuse": "libs/fuse"
   }
 }
