@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "design-system": "libs/design-system",
+    "account": "apps/account",
     "fuse": "libs/fuse",
     "homepage": "apps/homepage"
   }

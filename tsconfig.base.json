@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tvg/fuse": ["libs/fuse/src/index.ts"],
-      "newride/design-system": ["libs/design-system/src/index.ts"]
+      "@tvg/fuse": ["libs/fuse/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
