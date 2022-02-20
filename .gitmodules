@@ -1,0 +1,6 @@
+[submodule "apps/megabasic-docker"]
+	path = apps/megabasic-docker
+	url = git@github.com:Szlain/megabasic-docker.git
+[submodule "apps/graphql"]
+	path = apps/graphql
+	url = git@github.com:Szlain/graphql.git

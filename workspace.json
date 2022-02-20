@@ -3,6 +3,8 @@
   "projects": {
     "account": "apps/account",
     "homepage": "apps/homepage",
-    "fuse": "libs/fuse"
+    "fuse": "libs/fuse",
+    "graphql": "apps/graphql",
+    "megabasic-docker": "apps/megabasic-docker"
   }
 }

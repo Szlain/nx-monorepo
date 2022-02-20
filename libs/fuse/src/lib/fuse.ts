@@ -1,3 +1,3 @@
-export button: string {
+export function button(): string {
   return '<button></button>';
 }
