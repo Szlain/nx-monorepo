@@ -3,8 +3,8 @@
 // console.log(`Running ${account()}`);
 
 import fastify from 'fastify'
-// import { button } from '@tvg/fuse'
-const button = 'woop'
+import { button } from '@tvg/fuse'
+// const button = 'woop'
 
 const server = fastify()
 

@@ -1,1 +1,3 @@
-export * from './lib/fuse';
+const button = "<button>Button</button>"
+
+export { button }

@@ -1,7 +1,7 @@
-import { fuse } from './fuse';
+import { button } from './fuse';
 
 describe('fuse', () => {
   it('should work', () => {
-    expect(fuse()).toEqual('fuse');
+    expect(button.toEqual('<button>Button</button>');
   });
 });
