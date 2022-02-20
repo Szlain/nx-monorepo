@@ -1,8 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "basic-frontend": "packages/basic-frontend",
-    "graphql": "packages/graphql",
-    "megabasic-docker": "packages/megabasic-docker"
+    "design-system": "libs/design-system",
+    "fuse": "libs/fuse",
+    "homepage": "apps/homepage"
   }
 }

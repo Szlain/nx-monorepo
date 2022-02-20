@@ -14,9 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "paths": {
+      "@tvg/fuse": ["libs/fuse/src/index.ts"],
+      "newride/design-system": ["libs/design-system/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
