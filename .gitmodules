@@ -4,3 +4,6 @@
 [submodule "apps/graphql"]
 	path = apps/graphql
 	url = git@github.com:Szlain/graphql.git
+[submodule "libs/fuse"]
+	path = libs/fuse
+	url = git@github.com:Szlain/fuse.git
