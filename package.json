@@ -1,28 +1,27 @@
 {
-  "name": "newride",
+  "name": "tvg-nx",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:frontend": "npx nx run-many --target=build --all",
-    "run:frontend": "npx nx run-many --target=serve --all"
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
   },
   "private": true,
   "workspaces": [
-    "packages/basic-frontend",
-    "packages/megabasic-docker",
-    "packages/graphql"
+    "libs/homepage"
   ],
   "dependencies": {
+    "@nrwl/js": "^13.8.2",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@nrwl/cli": "13.7.3",
-    "@nrwl/eslint-plugin-nx": "13.7.3",
-    "@nrwl/jest": "13.7.3",
-    "@nrwl/js": "13.7.3",
-    "@nrwl/linter": "13.7.3",
-    "@nrwl/tao": "13.7.3",
-    "@nrwl/workspace": "13.7.3",
+    "@nrwl/cli": "13.8.2",
+    "@nrwl/eslint-plugin-nx": "13.8.2",
+    "@nrwl/jest": "13.8.2",
+    "@nrwl/linter": "13.8.2",
+    "@nrwl/tao": "13.8.2",
+    "@nrwl/workspace": "13.8.2",
     "@types/jest": "27.0.2",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "~5.10.0",
@@ -32,6 +31,6 @@
     "jest": "27.2.3",
     "prettier": "^2.5.1",
     "ts-jest": "27.0.5",
-    "typescript": "^4.6.0-dev.20220205"
+    "typescript": "~4.5.2"
   }
 }

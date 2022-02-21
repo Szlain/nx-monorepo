@@ -1,9 +1,9 @@
-[submodule "packages/basic-frontend"]
-	path = packages/basic-frontend
-	url = git@github.com:Szlain/basic-frontend.git
-[submodule "packages/megabasic-docker"]
-	path = packages/megabasic-docker
+[submodule "apps/megabasic-docker"]
+	path = apps/megabasic-docker
 	url = git@github.com:Szlain/megabasic-docker.git
-[submodule "packages/graphql"]
-	path = packages/graphql
+[submodule "apps/graphql"]
+	path = apps/graphql
 	url = git@github.com:Szlain/graphql.git
+[submodule "libs/fuse"]
+	path = libs/fuse
+	url = git@github.com:Szlain/fuse.git

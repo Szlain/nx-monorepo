@@ -1,0 +1,11 @@
+{
+  "name": "@tvg/homepage",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "dependencies": {
+    "fastify": "^3.27.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.15"
+  }
+}
