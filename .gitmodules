@@ -1,9 +1,9 @@
 [submodule "apps/megabasic-docker"]
 	path = apps/megabasic-docker
-	url = git@github.com:Szlain/megabasic-docker.git
+	url = https://github.com:Szlain/megabasic-docker.git
 [submodule "apps/graphql"]
 	path = apps/graphql
-	url = git@github.com:Szlain/graphql.git
+	url = https://github.com:Szlain/graphql.git
 [submodule "libs/fuse"]
 	path = libs/fuse
-	url = git@github.com:Szlain/fuse.git
+	url = https://github.com:Szlain/fuse.git
