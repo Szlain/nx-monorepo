@@ -2,9 +2,13 @@
   "version": 2,
   "projects": {
     "account": "apps/account",
-    "homepage": "apps/homepage",
     "fuse": "libs/fuse",
     "graphql": "apps/graphql",
-    "megabasic-docker": "apps/megabasic-docker"
+    "homepage": "apps/homepage",
+    "megabasic-docker": "apps/megabasic-docker",
+    "next-app": "apps/next-app",
+    "next-app-e2e": "apps/next-app-e2e",
+    "react-app": "apps/react-app",
+    "react-app-e2e": "apps/react-app-e2e"
   }
 }
