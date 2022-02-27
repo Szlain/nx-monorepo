@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 
-import { button } from "@tvg/fuse"
+import { JsxButton } from "@tvg/fuse"
 
 export function Index() {
   /*
@@ -9,7 +9,8 @@ export function Index() {
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    ${button}
+    <>
+    <JsxButton />
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
@@ -412,6 +413,7 @@ export function Index() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
