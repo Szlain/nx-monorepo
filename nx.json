@@ -51,5 +51,6 @@
       }
     }
   },
-  "defaultProject": "next-app"
+  "defaultProject": "next-app",
+  "plugins": ["@jnxplus/nx-boot-gradle"]
 }

@@ -1,0 +1,26 @@
+{
+  "root": "apps/spring-app",
+  "projectType": "application",
+  "sourceRoot": "apps/spring-app/src",
+  "targets": {
+    "build": {
+      "executor": "@jnxplus/nx-boot-gradle:build",
+      "options": {
+        "packaging": "jar"
+      }
+    },
+    "serve": {
+      "executor": "@jnxplus/nx-boot-gradle:serve"
+    },
+    "lint": {
+      "executor": "@jnxplus/nx-boot-gradle:lint",
+      "options": {
+        "linter": "checkstyle"
+      }
+    },
+    "test": {
+      "executor": "@jnxplus/nx-boot-gradle:test"
+    }
+  },
+  "tags": []
+}
