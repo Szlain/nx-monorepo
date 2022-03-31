@@ -3,6 +3,7 @@
   "projects": {
     "account": "apps/account",
     "fuse": "libs/fuse",
+    "fuse-publishable": "libs/fuse-publishable",
     "graphql": "apps/graphql",
     "homepage": "apps/homepage",
     "megabasic-docker": "apps/megabasic-docker",

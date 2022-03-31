@@ -1,0 +1,43 @@
+{
+  "root": "libs/fuse-publishable",
+  "sourceRoot": "libs/fuse-publishable/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/fuse-publishable",
+        "tsConfig": "libs/fuse-publishable/tsconfig.lib.json",
+        "project": "libs/fuse-publishable/package.json",
+        "entryFile": "libs/fuse-publishable/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "swc",
+        "assets": [
+          {
+            "glob": "libs/fuse-publishable/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/fuse-publishable/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/fuse-publishable"],
+      "options": {
+        "jestConfig": "libs/fuse-publishable/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
