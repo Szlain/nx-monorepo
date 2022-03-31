@@ -6,7 +6,7 @@ export interface FusePublishableProps {}
 export function FusePublishable(props: FusePublishableProps) {
   return (
     <div>
-      <h1>Welcome to FusePublishable!</h1>
+      <h1>Welcome to FusePublishable! to trigger</h1>
     </div>
   );
 }
