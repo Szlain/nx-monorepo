@@ -7,7 +7,6 @@
  */
 
 import { JsxButton } from "@tvg/fuse"
-import { FusePublishable } from "@tvg/fuse-publishable"
 
 export function NxWelcome({ title }: { title: string }) {
   return (
@@ -18,7 +17,7 @@ export function NxWelcome({ title }: { title: string }) {
       // />
       <>
         <JsxButton />
-        <FusePublishable />      
+        {/* <FusePublishable />       */}
       </>
 
   );
