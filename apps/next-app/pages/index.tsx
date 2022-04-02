@@ -1,6 +1,7 @@
 import styles from './index.module.css';
 
 import { JsxButton } from "@tvg/fuse"
+import { cheese } from "@tvg/utils";
 
 export function Index() {
   /*
@@ -10,6 +11,7 @@ export function Index() {
    */
   return (
     <>
+    This is a util: {cheese()}
     <JsxButton />
     <div className={styles.page}>
       <div className="wrapper">

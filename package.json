@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "pull": "git pull --recurse-submodules",
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test"
@@ -33,6 +34,8 @@
     "@nrwl/tao": "13.8.2",
     "@nrwl/web": "13.8.3",
     "@nrwl/workspace": "13.8.2",
+    "@swc/core": "1.2.118",
+    "@swc/jest": "0.2.15",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
     "@types/jest": "27.0.2",

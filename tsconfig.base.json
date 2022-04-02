@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tvg/fuse": ["libs/fuse/src/index.ts"]
+      "@tvg/fuse": ["libs/fuse/src/index.ts"],
+      "@tvg/utils": ["libs/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
