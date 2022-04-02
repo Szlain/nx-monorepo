@@ -7,3 +7,6 @@
 [submodule "libs/fuse"]
 	path = libs/fuse
 	url = https://github.com/Szlain/fuse.git
+[submodule "libs/utils"]
+	path = libs/utils
+	url = git@github.com:Szlain/utils.git
