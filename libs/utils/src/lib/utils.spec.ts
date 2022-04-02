@@ -1,7 +1,7 @@
-import { utils } from './utils';
+import { cheese } from './utils';
 
 describe('utils', () => {
   it('should work', () => {
-    expect(utils()).toEqual('utils');
+    expect(cheese()).toEqual('-> this is a utils lib item! <-');
   });
 });
