@@ -10,6 +10,6 @@
     "next-app-e2e": "apps/next-app-e2e",
     "react-app": "apps/react-app",
     "react-app-e2e": "apps/react-app-e2e",
-    "utils": "libs/utils"
+    "storybook": "apps/storybook"
   }
 }
