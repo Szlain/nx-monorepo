@@ -44,3 +44,4 @@ Thumbs.db
 apps/graphql
 libs/fuse*
 libs/fuse*
+libs/fuse
