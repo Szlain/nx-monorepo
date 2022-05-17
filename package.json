@@ -6,13 +6,15 @@
     "pull": "git pull --recurse-submodules",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "storybook": "yarn nx build storybook"
   },
   "private": true,
   "workspaces": [
     "libs/homepage"
   ],
   "dependencies": {
+    "@ladle/react": "^0.15.1",
     "@nrwl/js": "^13.8.2",
     "@nrwl/next": "^13.8.3",
     "core-js": "^3.6.5",

@@ -1,0 +1,18 @@
+yarn run v1.22.10
+$ /root/CodePlayground/nx-monorepo/node_modules/.bin/nx build storybook --output-dir /tmp/chromatic--6340-tCDIjoMIT0PI
+
+> nx run storybook:build:production --outputDir=/tmp/chromatic--6340-tCDIjoMIT0PI
+
+Entrypoint [1mmain[39m[22m 196 KiB = [1m[32mruntime.c45ab0270cfe053c.esm.js[39m[22m 5.85 KiB [1m[32mmain.03380a09ee5cd283.esm.js[39m[22m 191 KiB
+Entrypoint [1mpolyfills[39m[22m [1m[33m[big][39m[22m 540 KiB = [1m[32mruntime.c45ab0270cfe053c.esm.js[39m[22m 5.85 KiB [1m[32mpolyfills.68bb1116def9bf21.esm.js[39m[22m 535 KiB
+chunk (runtime: runtime) [1m[32mmain.03380a09ee5cd283.esm.js[39m[22m (main) 192 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mpolyfills.68bb1116def9bf21.esm.js[39m[22m (polyfills) 516 KiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.c45ab0270cfe053c.esm.js[39m[22m (runtime) 3.01 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8d31d13237d824db)
+
+ 
+
+ >  NX   Successfully ran target build for project storybook
+
+
+Done in 4.90s.
